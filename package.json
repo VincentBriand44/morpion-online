@@ -18,6 +18,10 @@
     "lint": "bunx @biomejs/biome lint --write .",
     "format": "bunx @biomejs/biome format --write ."
   },
+  "dependencies": {
+    "nanoid": "5.0.8",
+    "valibot": "1.0.0-beta.3"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@sveltejs/adapter-static": "3.0.6",
@@ -54,8 +58,5 @@
         "breaking"
       ]
     }
-  },
-  "dependencies": {
-    "nanoid": "5.0.8"
   }
 }
