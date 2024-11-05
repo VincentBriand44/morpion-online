@@ -3,4 +3,6 @@ import '../app.css';
 let { children } = $props();
 </script>
 
-{@render children()}
+<main class="bg-slate-900 h-screen">
+  {@render children()}
+</main>
