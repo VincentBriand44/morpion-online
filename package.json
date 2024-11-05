@@ -1,6 +1,14 @@
 {
   "name": "morpion-online",
   "version": "0.0.1",
+  "author": {
+    "email": "pro.vincent.briand@pm.me",
+    "name": "VincentBriand44"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VincentBriand44/morpion-online"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite dev",
@@ -23,7 +31,13 @@
     "typescript": "^5.0.0",
     "vite": "^5.0.3"
   },
-  "trustedDependencies": [
-    "@biomejs/biome"
-  ]
+  "trustedDependencies": ["@biomejs/biome"],
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
+    },
+    "cz-emoji": {
+      "skipQuestions": ["scope", "body"]
+    }
+  }
 }
