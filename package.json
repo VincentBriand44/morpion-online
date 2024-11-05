@@ -37,7 +37,8 @@
       "path": "cz-emoji"
     },
     "cz-emoji": {
-      "skipQuestions": ["scope", "body"]
+      "scopes": ["client", "server", "other"],
+      "skipQuestions": ["body", "issues", "breaking"]
     }
   }
 }
