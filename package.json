@@ -29,21 +29,33 @@
     "@types/ws": "^8.5.13",
     "autoprefixer": "10.4.20",
     "bun-types": "^1.1.34",
-    "svelte": "5.1.10",
+    "svelte": "5.1.11",
     "svelte-check": "4.0.5",
     "svelte-radix": "2.0.1",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3",
     "vite": "5.4.10"
   },
-  "trustedDependencies": ["@biomejs/biome", "@sveltejs/kit", "esbuild"],
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "@sveltejs/kit",
+    "esbuild"
+  ],
   "config": {
     "commitizen": {
       "path": "cz-emoji"
     },
     "cz-emoji": {
-      "scopes": ["client", "server", "other"],
-      "skipQuestions": ["body", "issues", "breaking"]
+      "scopes": [
+        "client",
+        "server",
+        "other"
+      ],
+      "skipQuestions": [
+        "body",
+        "issues",
+        "breaking"
+      ]
     }
   }
 }
