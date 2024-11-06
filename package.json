@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@sveltejs/adapter-auto": "3.3.1",
     "@sveltejs/adapter-static": "3.0.6",
     "@sveltejs/kit": "2.7.7",
     "@sveltejs/vite-plugin-svelte": "4.0.0",
@@ -37,26 +38,14 @@
     "typescript": "5.6.3",
     "vite": "5.4.10"
   },
-  "trustedDependencies": [
-    "@biomejs/biome",
-    "@sveltejs/kit",
-    "esbuild"
-  ],
+  "trustedDependencies": ["@biomejs/biome", "@sveltejs/kit", "esbuild"],
   "config": {
     "commitizen": {
       "path": "cz-emoji"
     },
     "cz-emoji": {
-      "scopes": [
-        "client",
-        "server",
-        "other"
-      ],
-      "skipQuestions": [
-        "body",
-        "issues",
-        "breaking"
-      ]
+      "scopes": ["client", "server", "other"],
+      "skipQuestions": ["body", "issues", "breaking"]
     }
   }
 }
